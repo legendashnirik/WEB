@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./public/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Скриншонты</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="menu">
+        <style>
+            a {
+                text-decoration: none; /* Отменяем подчеркивание у ссылки */
+            }
+        </style>
+        <a href="/"><img src="./public/Img/logo.png"></a>
+        <div class="ww" style="display:flex;align-items: center;">
+            <h6 class="Sign Entrance" id="Button_Reg" style="display:block">
+                <span>Зарегистрироваться</span>
+            </h6>
+            <h5 class="button Entrance" id="Button_Enter">
+                <span>Войти</span>
+            </h5>
+        </div>
+
+    </div>
+</header>
+<section class="header">
+    <div class="container">
+        <div>
+            <div class="photoAdd">
+                <a href="/screenshot">
+                    <button style="margin-right: 24px">+ Добавить фото</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="cards">
+            
+                <a href="/infoScreen/">
+                    <div class="card">
+                        <div class="inside">
+                            <p style="margin-top: 196px;">2022</p>
+                        </div>
+                        <img src="./public/Img/image 1.png" class="imgcard">
+                    </div>
+                </a>
+
+
+            <a href="/infoScreen/">
+                <div class="card">
+                    <div class="inside">
+                        <p style="margin-top: 196px;">2022</p>
+                    </div>
+                    <img src="./public/Img/image 3.png" class="imgcard">
+                </div>
+            </a>
+
+            <a href="/infoScreen/">
+                <div class="card">
+                    <div class="inside">
+                        <p style="margin-top: 196px;">2022</p>
+                    </div>
+                    <img src="./public/Img/image 4.png" class="imgcard">
+                </div>
+            </a>
+
+            <a href="/infoScreen/">
+                <div class="card">
+                    <div class="inside">
+                        <p style="margin-top: 196px;">2022</p>
+                    </div>
+                    <img src="./public/Img/image 5.png" class="imgcard">
+                </div>
+            </a>
+
+            <a href="/infoScreen/">
+                <div class="card">
+                    <div class="inside">
+                        <p style="margin-top: 196px;">2022</p>
+                    </div>
+                    <img src="./public/Img/image 1.png" class="imgcard">
+                </div>
+            </a>
+
+
+            <a href="/infoScreen/">
+                <div class="card">
+                    <div class="inside">
+                        <p style="margin-top: 196px;">2022</p>
+                    </div>
+                    <img src="./public/Img/image 5.png" class="imgcard">
+                </div>
+            </a>
+
+            <a href="/infoScreen/">
+                <div class="card">
+                    <div class="inside">
+                        <p style="margin-top: 196px;">2022</p>
+                    </div>
+                    <img src="./public/Img/image 1.png" class="imgcard">
+                </div>
+            </a>
+
+            <a href="/infoScreen/">
+                <div class="card">
+                    <div class="inside">
+                        <p style="margin-top: 196px;">2022</p>
+                    </div>
+                    <img src="./public/Img/image 4.png" class="imgcard">
+                </div>
+            </a>
+            
+
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+
+    </div>
+</footer>
+<table id="customers" class="table_block">
+    <table class="bContentTables" style="overflow:hidden;">
+
+        <div id="zatemnenie" style="display:none"></div>
+        <form id="okno" style="display:none" method="POST" action="/enter">
+            <div id="okno" style="display:none">
+                <a href="index.php"><p class="q">Вход</p></a>
+                <img src="img/cross.png" class="cross">
+                <input type="text" class="name" placeholder="Введите логин" name="users_log">
+
+                <div class="textbox">
+                    <input type="password" class="pword" placeholder="Введите пароль" name="users_pwd">
+                </div>
+                <a href="/enter">
+                    <button type="submit" id="logIN" class="newbut">Войти</button>
+                </a>
+            </div>
+        </form>
+
+        <form action="index.php" method="post" id="form1">
+
+            <div id="okno2" style="display:none">
+                <div class="reg">
+                    <p>Регистрация</p>
+                </div>
+                <img src="img/cross.png" class="cross1">
+                <input type="text" class="new_name" placeholder="Введите имя" name="userName">
+
+                <div class="textbox">
+                    <input type="text" class="new_email" placeholder="Введите email" name="userEmail">
+                </div>
+                <div class="textbox">
+                    <input type="text" class="new_phone" placeholder="Введите телефон" name="userFone">
+                </div>
+                <div class="textbox">
+                    <input type="password" class="new_password" placeholder="Введите пароль" name="userPass">
+                </div>
+                <div class="textbox">
+                    <input type="password" class="new_password_again" placeholder="Повторите пароль" name="userPassToo">
+                </div>
+                <div class="yes">
+                    <input onclick="checkFluency()" type="checkbox" id="qaz" class="check_box">
+                    <p style="color:#64baff" class="agree">Согласие на обработку данных</p>
+                </div>
+                <button type="submit" id="Register" class="newbut" disabled="true">Зарегистрироваться</button>
+            </div>
+        </form>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+</html>
